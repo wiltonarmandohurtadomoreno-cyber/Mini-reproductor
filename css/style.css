@@ -1,0 +1,53 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #212121;
+}
+
+.logo {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.video-container {
+    background-color: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.thumbnail-card {
+    background-color: #181818;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.thumbnail-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+}
+
+.thumbnail-card img {
+    border-radius: 10px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.thumbnail-card.active {
+    border: 2px solid #ff0000;
+}
+
+.video-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.video-description {
+    color: #aaaaaa;
+}
